@@ -1,5 +1,4 @@
 # Image to build Java projects and communicate to AWS
-==========================================================================
 ### Includes:
 - Alpine linux 3.12
 - OpenJDK 16
