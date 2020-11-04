@@ -3,7 +3,7 @@ FROM openjdk:16-jdk-alpine
 WORKDIR /root
 
 #Installing required packages
-RUN apk update && apk add wget xz groff
+RUN apk update && apk add wget xz groff jq
 
 #Installing NodeJs
 RUN apk add --update nodejs npm yarn
